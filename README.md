@@ -43,4 +43,4 @@ La interfaz es por consola, con menús y tablas formateadas usando iomanip para 
 <img width="1062" height="539" alt="image" src="https://github.com/user-attachments/assets/9d55b4f5-003e-4f8f-8db5-d6277918f69a" />
 
 ### 8. 🛠️ Compatibilidad
-- Incluye windows.h y usa SetConsoleOutputCP(CP_UTF8); para soportar caracteres UTF-8 en la consola de Windows.
+- Incluye **windows.h** y usa **SetConsoleOutputCP(CP_UTF8)**; para soportar caracteres UTF-8 en la consola de Windows.
