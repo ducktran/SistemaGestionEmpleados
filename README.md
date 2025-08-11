@@ -19,15 +19,16 @@ Este proyecto consiste en un sistema de gestión de asistencia de empleados (SIG
 - Registro de marcaciones (registrar, editar, listar)
 - Reportes (asistencia, horas trabajadas, ausencias, permisos, horas extra)
 
-3. Persistencia de datos
+### 3. Persistencia de datos
 Toda la información se guarda en archivos binarios (empleados.dat, marcaciones.dat, reportes.dat). Cada vez que se realiza una operación de alta, edición o eliminación lógica, se actualizan los archivos correspondientes.
 
-4. Validaciones
+### 4. Validaciones
 Al agregar empleados, se valida que el código y el DUI no estén repetidos.
 Al registrar marcaciones, se valida que el empleado exista y esté activo, que la fecha y hora tengan el formato correcto, y que no exista ya una marcación para ese empleado y fecha.
 Al editar o desactivar empleados/marcaciones, se verifica que existan y estén activos.
 
-6. Reportes
+### 6. Reportes
+
 El sistema puede generar varios reportes:
 
 - Asistencia por rango de fechas.
@@ -36,11 +37,11 @@ El sistema puede generar varios reportes:
 - Permisos solicitados.
 - Horas extra realizadas en un rango de fechas.
   
-6. Interfaz
+### 6. Interfaz
 La interfaz es por consola, con menús y tablas formateadas usando iomanip para facilitar la lectura.
 
 
 
 
-8. Compatibilidad
+### 8. Compatibilidad
 - Incluye windows.h y usa SetConsoleOutputCP(CP_UTF8); para soportar caracteres UTF-8 en la consola de Windows.
