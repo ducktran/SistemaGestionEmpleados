@@ -4,13 +4,13 @@ Este proyecto consiste en un sistema de gestión de asistencia de empleados (SIG
 
 ## 📝 Puntos Importantes
 ### 1. Clases principales
-**Empleado**: Representa a un empleado con atributos como código, nombre, DUI, departamento, cargo y estado (activo/inactivo)...
+- **Empleado**: Representa a un empleado con atributos como código, nombre, DUI, departamento, cargo y estado (activo/inactivo)...
 
-- Marcacion: Representa una marcación de asistencia, con atributos como código de empleado, fecha, hora de entrada/salida, horas extra, permiso, motivo y observaciones. También tiene métodos para cargar y guardar marcaciones (marcaciones.dat).
+- **Marcacion**: Representa una marcación de asistencia, con atributos como código de empleado, fecha, hora de entrada/salida, horas extra, permiso, motivo y observaciones. También tiene métodos para cargar y guardar marcaciones (marcaciones.dat).
 
-- Reporte: Permite almacenar información de reportes generados, aunque en el código actual solo se usa para guardar/cargar reportes (reportes.dat).
+- **Reporte**: Permite almacenar información de reportes generados, aunque en el código actual solo se usa para guardar/cargar reportes (reportes.dat).
 
-- SistemaGestion: Es la clase principal que gestiona la lógica del sistema. Contiene vectores de empleados, marcaciones y reportes, y métodos para todas las operaciones del sistema (agregar/editar/desactivar/listar empleados, registrar/editar/listar marcaciones, y generar reportes).
+- **SistemaGestion**: Es la clase principal que gestiona la lógica del sistema. Contiene vectores de empleados, marcaciones y reportes, y métodos para todas las operaciones del sistema (agregar/editar/desactivar/listar empleados, registrar/editar/listar marcaciones, y generar reportes).
 
 ### 2. 📋 Menús
 ### El sistema tiene menús para:
