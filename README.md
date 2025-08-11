@@ -4,7 +4,7 @@ Este proyecto consiste en un sistema de gestión de asistencia de empleados (SIG
 
 ## 📝 Puntos Importantes
 ### 1. Clases principales
-- Empleado: Representa a un empleado con atributos como código, nombre, DUI, departamento, cargo y estado (activo/inactivo). Incluye métodos estáticos para cargar y guardar empleados desde/para un archivo binario (empleados.dat).
+**Empleado**: Representa a un empleado con atributos como código, nombre, DUI, departamento, cargo y estado (activo/inactivo)...
 
 - Marcacion: Representa una marcación de asistencia, con atributos como código de empleado, fecha, hora de entrada/salida, horas extra, permiso, motivo y observaciones. También tiene métodos para cargar y guardar marcaciones (marcaciones.dat).
 
